@@ -6,9 +6,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 const Navbar = () => {
 
     const navigationObj = [
-        {id: 1,value: "About Me",href: "/"},
-        {id: 2,value: "Contact",href: "/contact"},
-        {id: 3,value: "Resume",href: "/resume"},
+        {id: 1,value: "About Me",href: "/portfolio"},
+        {id: 2,value: "Contact",href: "/portfolio/contact"},
+        {id: 3,value: "Resume",href: "/portfolio/resume"},
         // {id: 4,value: "Extra",href: "/extra"},
     ]
 
