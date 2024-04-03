@@ -12,11 +12,18 @@ export default function App() {
   return (
         <div>
             <Header/>
-            <Routes>
+            {/* Browser Router SSR SEO */}
+            {/* <Routes>
                 <Route path="/portfolio/" element={<About />} />
                 <Route path="/portfolio/about" element={<About />} />
                 <Route path="/portfolio/contact" element={<Contact />} />
                 <Route path="/portfolio/resume" element={<Resume />} />
+            </Routes> */}
+            <Routes>
+                <Route path="/" element={<About />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/resume" element={<Resume />} />
             </Routes>
         </div>
   );
