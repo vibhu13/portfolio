@@ -9,7 +9,6 @@ export const About = () => {
     
                 <div>
                     <h2 class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Hi 👋 I am Vibhu Yadav
-                        {/* <br class="block sm:hidden" /> Vibhu Yadav */}
                     </h2>
                     <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
                     A Software Engineer currently working at Apple.
