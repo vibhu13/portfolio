@@ -7,14 +7,14 @@ const Navbar = () => {
 
     // Browser Router SSR , SEO Friendly
     // const navigationObj = [
-    //     {id: 1,value: "About Me",href: "/portfolio"},
+    //     {id: 1,value: "Home",href: "/portfolio"},
     //     {id: 2,value: "Contact",href: "/portfolio/contact"},
     //     {id: 3,value: "Resume",href: "/portfolio/resume"},
     //     // {id: 4,value: "Extra",href: "/extra"},
     // ]
 
     const navigationObj = [
-      {id: 1,value: "About Me",href: ""},
+      {id: 1,value: "Home",href: ""},
       {id: 2,value: "Contact",href: "/contact"},
       {id: 3,value: "Resume",href: "/resume"},
       // {id: 4,value: "Extra",href: "/extra"},
