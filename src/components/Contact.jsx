@@ -11,11 +11,11 @@ export const Contact = () => {
       };
 
     return (
-        <section className="pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
+        <section className="pt-10 overflow-hidden bg-white dark:bg-gray-900 md:pt-0 sm:pt-16 2xl:pt-16">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid items-center grid-cols-1 md:grid-cols-2">
                     <div>
-                        <h4 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Contact Me</h4>
+                        <h4 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">Contact Me</h4>
                         <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
                         <input type="text" id="name" placeholder="Your Name" value={yourName} onChange={(e) => setYourName(e.target.value)}
                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-300 focus:border-yellow-300 focus:outline-none dark:border-gray-700 dark:focus:ring-amber-400 dark:focus:border-amber-400 dark:bg-gray-900 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500" />
