@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
 
@@ -13,12 +13,16 @@ const Navbar = () => {
     //     // {id: 4,value: "Extra",href: "/extra"},
     // ]
 
-    const [darkMode,setDarkMode] = useState(false);
+    const [darkMode,setDarkMode] = useState(true);
 
     const toggleDarkMode = () => {
       setDarkMode(!darkMode);
-      document.documentElement.classList.toggle("dark");
     }
+
+    useEffect(() => {
+      // Set dark mode class on body element initially
+     document.documentElement.classList.toggle("dark");
+    }, [darkMode]);
 
     const navigationObj = [
       {id: 1,value: "Home",href: ""},
@@ -33,7 +37,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     }
 
-    console.log(isOpen);
+    // console.log(isOpen);
 
 
     return (
