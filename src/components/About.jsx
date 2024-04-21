@@ -1,5 +1,6 @@
 import React from 'react';
 import DownloadResume from './DownloadResume';
+import { Skills } from './Skills';
 
 export const About = () => {
     return (
@@ -14,7 +15,7 @@ export const About = () => {
                     A Software Engineer currently working at Apple.
                     I have around 7 years of experience with previous roles at Expedia Group and Info Edge India Ltd.
                     </p>
-
+                    <Skills/>
                     <p class="mt-4 mb-4 text-xl text-gray-600 md:mt-8">
                         <DownloadResume/>
                     </p>
