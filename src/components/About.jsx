@@ -1,5 +1,6 @@
 import React from 'react';
 import DownloadResume from './DownloadResume';
+import ViewResume from './ViewResume';
 import { Skills } from './Skills';
 
 export const About = () => {
@@ -16,7 +17,8 @@ export const About = () => {
                     I have around 7 years of experience with previous roles at Expedia Group and Info Edge India Ltd.
                     </p>
                     <Skills/>
-                    <p class="mt-4 mb-4 text-xl text-gray-600 md:mt-8">
+                    <p class="mt-4 mb-4 text-xl text-gray-600 md:mt-8 space-x-4">
+                        <ViewResume/>
                         <DownloadResume/>
                     </p>
                 </div>
